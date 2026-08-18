@@ -1,0 +1,1 @@
+package org.yuyu.infrastructure.gateway.adapter;
