@@ -11,5 +11,13 @@ import java.util.List;
 @Mapper
 public interface IStrategyAwardDao {
 
+    /**
+     * 根据抽奖策略ID查询其对应的奖品列表
+     */
+    List<StrategyAward> queryStrategyAwardListByStrategyId(Long strategyId);
+
+
     List<StrategyAward> queryStrategyAwardList();
+
+
 }
